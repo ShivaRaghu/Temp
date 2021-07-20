@@ -1,5 +1,5 @@
 # Perform Clustering on Basketball Game Data
-
+```
 library(Stat2Data)
 library(PerformanceAnalytics)
 library(cluster)
@@ -107,17 +107,5 @@ rect.hclust(diana(d_manhattan, diss = TRUE, metric = 'manhattan'),
 # Now consider looking into all 147 games with selected Grinnell's stats and perform HC 
 grin_data1 <- Hoops[, c(5,7,9,13,14,16,17,18,22)]
 
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+```
 
